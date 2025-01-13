@@ -83,6 +83,17 @@ body {
     cursor: pointer;
     display: none;
 }
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    .navbar.active {
+        display: flex;
+    }
+}
 
 section {
     min-height: 100vh;
